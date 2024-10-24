@@ -78,7 +78,7 @@ export const HeroSection = () => {
       <div className='max-w-lg mx-auto'>
       <h1 className='font-serif text-3xl md:text-4xl text-center mt-8 tracking-wide'>Building Exceptional User Experience</h1>
       <p className='mt-4 text-center text-white/60 md:text-[16px]'>
-        I specialize in transforming designs into functional, high-performing web application. Let's discuss your next project
+        I specialize in transforming designs into functional, high-performing web application. Let&#39;s discuss your next project
       </p>
       </div>
       <div className='flex flex-col md:flex-row justify-center items-center mt-8 gap-4'>

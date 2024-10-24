@@ -13,7 +13,7 @@ export const ContactSection = () => {
         <div>
     <h2 className='font-serif text-2xl md:text-3xl'>Lets create something amazing together</h2>
     <p className='text-sm mt-2 md:text-base'>
-      Ready to bring your next project to life? Lets's connect and discuss how I can help achieve your goals.
+    Ready to bring your next project to life? Let&#39;s connect and discuss how I can help achieve your goals.
     </p>
     </div>
     <div>
