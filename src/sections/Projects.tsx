@@ -21,7 +21,7 @@ const portfolioProjects = [
       { title: "Improved site speed by 50%" },
       { title: "Increased mobile traffic by 35%" },
     ],
-    link: "https://stichandstyle-qi7c.vercel.app/",
+    link: "https://stichandstyle.vercel.app/",
     image: stichstyle,
   },
   {
