@@ -45,7 +45,7 @@ const portfolioProjects = [
       { title: "Improved site speed by 50%" },
       { title: "Increased mobile traffic by 35%" },
     ],
-    link: "https://frontend-dashbord-kxn304het-amans-projects-ef9d6175.vercel.app/",
+    link: "https://frontend-dashbord.vercel.app/",
     image: dashboard,
   },
 ];
