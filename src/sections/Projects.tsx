@@ -1,6 +1,9 @@
 import darkSaasLandingPage from "@/assets/images/dark-saas-landing-page.png";
 import lightSaasLandingPage from "@/assets/images/light-saas-landing-page.png";
 import aiStartupLandingPage from "@/assets/images/ai-startup-landing-page.png";
+import stichstyle from '@/assets/images/stichstyle.png'
+import notex from "@/assets/images/Notex.png"
+import dashboard from '@/assets/images/dashboard.png'
 import Image from "next/image";
 import CheckCircleIcon from "@/assets/icons/check-circle.svg";
 import ArrowUpRight from "@/assets/icons/arrow-up-right.svg";
@@ -11,39 +14,39 @@ import { Card } from "@/components/Card";
 const portfolioProjects = [
   {
     company: "Stich & Style",
-    year: "2022",
+    year: "2024",
     title: "MERN E-commerce web-site",
     results: [
       { title: "Enhanced user experience by 40%" },
       { title: "Improved site speed by 50%" },
       { title: "Increased mobile traffic by 35%" },
     ],
-    link: "https://youtu.be/4k7IdSLxh6w",
-    image: darkSaasLandingPage,
+    link: "https://stichandstyle-qi7c.vercel.app/",
+    image: stichstyle,
   },
   {
-    company: "Innovative Co",
-    year: "2021",
-    title: "Light Saas Landing Page",
+    company: "NoteX",
+    year: "2024",
+    title: "Notes Application",
     results: [
       { title: "Boosted sales by 20%" },
       { title: "Expanded customer reach by 35%" },
       { title: "Increased brand awareness by 15%" },
     ],
-    link: "https://youtu.be/7hi5zwO75yc",
-    image: lightSaasLandingPage,
+    link: "https://notex-two.vercel.app/",
+    image: notex,
   },
   {
-    company: "Quantum Dynamics",
-    year: "2023",
-    title: "AI Startup Landing Page",
+    company: "Product DashBoard",
+    year: "2024",
+    title: "Check Product Statistics",
     results: [
       { title: "Enhanced user experience by 40%" },
       { title: "Improved site speed by 50%" },
       { title: "Increased mobile traffic by 35%" },
     ],
-    link: "https://youtu.be/Z7I5uSRHMHg",
-    image: aiStartupLandingPage,
+    link: "https://frontend-dashbord-kxn304het-amans-projects-ef9d6175.vercel.app/",
+    image: dashboard,
   },
 ];
 
@@ -62,7 +65,7 @@ export const ProjectsSection = () => {
               key={project.title}
               className="px-8 pt-8 pb-0 md:pt-12 md:px-10 lg:pt-16 lg:px-20 sticky "
               style = {{
-                   top: `calc(64px + ${projectIndex * 30}px`    
+                   top: `calc(64px + ${projectIndex * 40}px`    
               }}
             >
               <div className="lg:grid lg:grid-cols-2 lg:gap-16">
